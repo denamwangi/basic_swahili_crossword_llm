@@ -33,8 +33,6 @@ def read_filled_puz(puz_file):
                 curr_word = ''
 
 
-    print(f"Words across are: {across}")
-    print(f"Words down are: {down}")
     with open("answers.txt", 'w') as f:
         f.write(json.dumps(
             {
